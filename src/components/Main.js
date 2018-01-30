@@ -8,6 +8,12 @@ export class Main extends React.Component {
     playerId: nba.findPlayer('Stephen Curry').playerId
   }
 
+  componentDidMount() {
+    nba.stats.playerInfo({ PlayerID: this.state.playerId }).then((info) => {
+      console.log(info);
+    })
+  }
+
   render () {
     return (
       <div className="main">
