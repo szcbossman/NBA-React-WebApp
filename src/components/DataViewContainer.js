@@ -32,6 +32,7 @@ export class DataViewContainer extends React.Component {
         <div className="filters">
           {this.state.chartType == "hexbin" ?
             <CountSlider onCountSliderChange={_.debounce(this.onCountSliderChange, 500)}/> : null}
+            <br/>
           <Row>
             <Col span={12} offset={2}>
               <RadioGroup onChange={this.onChartTypeChange} value={this.state.chartType}>
@@ -40,6 +41,7 @@ export class DataViewContainer extends React.Component {
               </RadioGroup>
             </Col>
             <Col span={6}>
+              Tooltip:{' '}
               <Switch checkedChildren="On" unCheckedChildren="Off"
                       defaultChecked
                       onChange={this.onTooltipChange}
