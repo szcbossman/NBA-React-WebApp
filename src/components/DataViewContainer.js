@@ -30,7 +30,7 @@ export class DataViewContainer extends React.Component {
                    displayTooltip={this.state.displayTooltip}
         />
         <div className="filters">
-          {this.state.chartType == "hexbin" ?
+          {this.state.chartType === "hexbin" ?
             <CountSlider onCountSliderChange={_.debounce(this.onCountSliderChange, 500)}/> : null}
             <br/>
           <Row>

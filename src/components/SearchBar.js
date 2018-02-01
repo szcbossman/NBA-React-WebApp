@@ -4,9 +4,6 @@ import { AutoComplete, Icon, Input } from 'antd';
 import { PROFILE_PIC_URL_PREFIX } from '../constants'
 const Option = AutoComplete.Option;
 
-function onSelect(value) {
-  console.log('onSelect', value);
-}
 
 export class SearchBar extends React.Component {
   state = {
@@ -31,7 +28,10 @@ export class SearchBar extends React.Component {
     const { dataSource } = this.state;
     const options = dataSource.map((player) => (
       <Option key={player.fullName} value={player.fullName} className="player-option">
-        <img className="player-option-image" src={`${PROFILE_PIC_URL_PREFIX}/${player.playerId}.png`}/>
+        <img className="player-option-image"
+             src={`${PROFILE_PIC_URL_PREFIX}/${player.playerId}.png`}
+             alt={player.fullName}
+        />
         <span className="player-option-label">{player.fullName}</span>
       </Option>
     ));
