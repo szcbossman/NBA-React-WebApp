@@ -24,8 +24,8 @@ export class SearchBar extends React.Component {
     const { dataSource } = this.state;
     return (
       <AutoComplete
+        className="search-bar"
         dataSource={dataSource}
-        style={{ width: 200 }}
         onSelect={onSelect}
         onSearch={this.handleSearch}
         placeholder="input here"
