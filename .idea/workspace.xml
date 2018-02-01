@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="714bd403-f643-4e0d-abff-245b6130b741" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/components/CountSlider.js" afterPath="$PROJECT_DIR$/src/components/CountSlider.js" />
       <change beforePath="$PROJECT_DIR$/src/components/DataViewContainer.js" afterPath="$PROJECT_DIR$/src/components/DataViewContainer.js" />
       <change beforePath="$PROJECT_DIR$/src/components/ShotChart.js" afterPath="$PROJECT_DIR$/src/components/ShotChart.js" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="ShotChart.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ShotChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+            <state relative-caret-position="465">
+              <caret line="31" column="129" lean-forward="false" selection-start-line="31" selection-start-column="129" selection-end-line="31" selection-end-column="129" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountSlider.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CountSlider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataViewContainer.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataViewContainer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="80" lean-forward="false" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+            <state relative-caret-position="345">
+              <caret line="23" column="115" lean-forward="false" selection-start-line="23" selection-start-column="115" selection-end-line="23" selection-end-column="115" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -373,12 +372,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517282687565</updated>
       <workItem from="1517282689726" duration="8008000" />
-      <workItem from="1517452767744" duration="5286000" />
+      <workItem from="1517452767744" duration="6298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13294000" />
+    <option name="totallyTimeSpent" value="14306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1466" y="35" width="1857" height="981" extended-state="0" />
@@ -628,16 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ShotChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -648,20 +637,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ShotChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="80" lean-forward="false" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        <state relative-caret-position="465">
+          <caret line="31" column="129" lean-forward="false" selection-start-line="31" selection-start-column="129" selection-end-line="31" selection-end-column="129" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="115" lean-forward="false" selection-start-line="23" selection-start-column="115" selection-end-line="23" selection-end-column="115" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
